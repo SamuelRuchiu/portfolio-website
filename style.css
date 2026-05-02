@@ -1,17 +1,56 @@
 body {
-  font-family: Arial;
   margin: 0;
-  padding: 0;
-  background: #111;
-  color: #fff;
+  font-family: Arial;
+  background: #0f172a;
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 50px;
+  background: #020617;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
 }
 
 header {
   text-align: center;
-  padding: 50px;
-  background: #222;
+  padding: 100px 20px;
+  background: linear-gradient(135deg, #2563eb, #9333ea);
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background: white;
+  color: black;
+  cursor: pointer;
+  margin-top: 10px;
 }
 
 section {
+  padding: 50px;
+}
+
+.card {
+  background: #1e293b;
   padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #020617;
 }

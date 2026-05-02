@@ -1,1 +1,5 @@
-console.log("portfolio loaded");
+function scrollToProjects() {
+  document.getElementById("projects").scrollIntoView({
+    behavior: "smooth"
+  });
+}

@@ -7,28 +7,56 @@
 </head>
 <body>
 
+<nav>
+  <h2>Samuel Ruchiu</h2>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
 <header>
-  <h1>Samuel Ruchiu</h1>
-  <p>C Programmer | Web Developer</p>
+  <h1>Hi, I'm Samuel 👋</h1>
+  <p>C Programmer | Backend Developer | Web Developer</p>
+  <button onclick="scrollToProjects()">View My Work</button>
 </header>
 
-<section>
+<section id="about">
   <h2>About Me</h2>
-  <p>I build efficient systems in C and modern web applications.</p>
+  <p>
+    I build efficient systems in C and modern web applications.
+    Passionate about performance, backend systems, and AI technologies.
+  </p>
 </section>
 
-<section>
+<section id="projects">
   <h2>Projects</h2>
-  <ul>
-    <li>Memory Management Simulator (C)</li>
-    <li>Multithreaded Processor (C)</li>
-  </ul>
+
+  <div class="card">
+    <h3>Memory Management Simulator</h3>
+    <p>C program simulating dynamic memory allocation.</p>
+    <a href="https://github.com/SamuelRuchiu/memory-simulator" target="_blank">View Code</a>
+  </div>
+
+  <div class="card">
+    <h3>Multithreaded Processor</h3>
+    <p>Parallel processing simulation using threads in C.</p>
+    <a href="#">View Code</a>
+  </div>
+
 </section>
 
-<section>
+<section id="contact">
   <h2>Contact</h2>
   <p>Email: samuelruchiu6@gmail.com</p>
+  <p>LinkedIn: linkedin.com/in/samuel-ruchiu-26b6a</p>
 </section>
 
+<footer>
+  <p>© 2026 Samuel Ruchiu</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
